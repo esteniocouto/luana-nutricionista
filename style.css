@@ -1,0 +1,85 @@
+body {
+    background-color: #f5f5dc;
+    width: 100vw;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+header {
+    background-color: #f5f5dc;
+    text-align: center;
+}
+
+main{
+    margin-top: 200px; 
+    margin-bottom: 20px;}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente */
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.conteudo {
+    display: flex; /* Usa flexbox para alinhar os elementos */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+}
+
+.texto {
+    flex: 1; /* Ocupa o espaço disponível */
+    padding: 20px; /* Adiciona espaçamento */
+}
+
+.imagem {
+    flex: 1; /* Ocupa o espaço disponível */
+    text-align: center; /* Centraliza a imagem horizontalmente */
+}
+
+
+
+
+
+
+
+
+footer{
+background-color: aquamarine;
+height: 150px;
+
+    
+}
+
+
+
+
+.icone-flutuante {
+    position: fixed; /* Posiciona o ícone de forma fixa */
+    bottom: 20px; /* Distância do ícone em relação ao fundo */
+    right: 20px; /* Distância do ícone em relação à direita */
+    background-color: #ccc; /* Cor de fundo do ícone */
+    color: #fff; /* Cor do ícone */
+    width: 40px; /* Largura do ícone */
+    height: 40px; /* Altura do ícone */
+    border-radius: 50%; /* Formato do ícone (círculo) */
+    display: flex; /* Transforma o ícone em um contêiner flexível */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    font-size: 20px; /* Tamanho do ícone */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
