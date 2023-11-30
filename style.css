@@ -83,3 +83,28 @@ height: 150px;
     font-size: 20px; /* Tamanho do ícone */
     text-decoration: none; /* Remove o sublinhado do link */
 }
+
+
+#contato {
+    background-image: url('imagem/consultoria-online-guia-completo-para-quem-deseja-atuar-na-area.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o espaço da div */
+    background-position: center; /* Centraliza a imagem na div */
+    color: #f5f5dc; /* Define a cor do texto para branco para contraste */
+    text-align: center; /* Alinha o conteúdo ao centro */
+    padding: 200px 20px; /* Adiciona espaçamento interno */
+    position: relative;
+    color: #ffffff;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contato:hover {
+    color: #ffcc00;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5)); /* Aplica sombra à imagem ao passar o mouse */
+}
+
+/* Para criar espaço e preservar o efeito de sombra */
+.com-imagem::after {
+    content: '';
+    display: block;
+    height: 100%; /* Altura do elemento */
+}
